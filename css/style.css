@@ -1,0 +1,802 @@
+* {
+    margin: none;
+    padding: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #272727;
+    width: 100%;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 600px;
+    background-image: url(../imeg/Снимок.PNG);
+    background-size: cover;
+}
+
+header .row {
+    padding-top: 20px;
+}
+
+header .row .navbar .hhhh {
+    width: 1200px;
+}
+
+header .row .navbar .container-fluid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-light .lob .navbar-brand {
+    font-weight: 700;
+    font-family: fangsong;
+    transition: 0.8s;
+    color: white;
+}
+
+.navbar-light .hhhh .lob .navbar-brand:hover {
+    color: rgb(238, 255, 0);
+}
+
+ul {
+    margin-left: 230px;
+    color: white !important;
+}
+
+header .row nav .collaps .nav .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: fangsong;
+    transition: 0.8s;
+    color: white !important;
+}
+
+header .row nav .collaps .nav .nav-item .nav-link:hover {
+    transform: scale(1.2) !important;
+    color: gold !important;
+}
+
+header .row .navbar #chiziq {
+    display: none;
+
+}
+
+header .row .navbar #chiziq {
+    background: transparent;
+}
+
+header .row .navbar #chiziq .dropdown .btn p {
+    color: white;
+}
+
+header .logo {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 180px;
+    color: white;
+}
+
+header .logo h1 {
+    margin: 25px 0 16px;
+}
+
+header .logo h4 {
+    margin-top: 150px;
+    color: darkorange;
+}
+
+header .logo p {
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+/*  section */
+section .portfolio {
+    color: white;
+}
+
+section .row {
+    width: 1000px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0
+    ;
+}
+
+section .row .item .box_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .row .item .box_1 .bir {
+    width: 300px;
+    height: 358px;
+    margin: 10px;
+    text-align: center;
+    background: url(../imeg/top-view-unrecognizable-hacker-performing-cyberattack-night.jpg);
+    background-size: cover;
+}
+
+section .row .item .box_1 .bir h2 {
+    color: #101c55;
+
+}
+
+section .row .item .box_1 .bir p {
+    color: #101c55;
+    font-size: 20px;
+    margin: 27px 71px 33px 85px;
+}
+
+section .row .item .box_1 .bir .card {
+    width: 300px;
+    height: 358px;
+    opacity: 0;
+    transition: 0.4s;
+    transform: scale(0);
+}
+
+section .row .item .box_1 .bir:hover .card {
+    opacity: 1;
+    background: #9ec4af5b;
+    transform: scale(1);
+}
+
+section .row .item .box_1 .bir:hover .card a {
+    text-decoration: none;
+}
+
+section .row .item .box_1 .ikki {
+    width: 300px;
+    height: 358px;
+    margin: 10px;
+    text-align: center;
+    background: url(../imeg/2.1.png);
+    background-size: cover;
+}
+
+section .row .item .box_1 .ikki h2 {
+    color: #101c55;
+}
+
+section .row .item .box_1 .ikki p {
+    color: #101c55;
+    margin: 27px 71px 33px 85px;
+}
+
+section .row .item .box_1 .ikki .card {
+    opacity: 0;
+    width: 300px;
+    height: 358px;
+    transition: 0.4s;
+    transform: scale(0);
+}
+
+section .row .item .box_1 .ikki:hover .card {
+    opacity: 1;
+    background: #9ec4af5b;
+    padding-top: 0%;
+    transform: scale(1);
+}
+
+section .row .item .box_1 .ikki:hover .card a {
+    text-decoration: none;
+}
+
+section .row .item .box_1 .uch {
+    width: 300px;
+    height: 358px;
+    margin: 10px;
+    text-align: center;
+    background: url(../imeg/Снимок\ yangi.JPG);
+    background-size: cover;
+}
+
+section .row .item .box_1 .uch h2 {
+    color: #101c55;
+
+}
+
+section .row .item .box_1 .uch p {
+    color: #101c55;
+    margin: 27px 71px 33px 85px;
+}
+
+section .row .item .box_1 .uch .card {
+    opacity: 0;
+    width: 300px;
+    height: 358px;
+    transition: 0.4s;
+    transform: scale(0);
+}
+
+section .row .item .box_1 .uch:hover .card {
+    opacity: 1;
+    background: #9ec4af5b;
+    padding-top: 0%;
+    transform: scale(1);
+}
+
+section .row .item .box_1 .uch:hover .card a {
+    text-decoration: none;
+}
+
+section .row .item .box_2 .bir {
+    width: 300px;
+    height: 358px;
+    margin: 10px;
+    text-align: center;
+    background: url(../imeg/Pic3.png);
+    background-size: cover;
+}
+
+section .row .item .box_2 .bir h2 {
+    color: #101c55;
+}
+
+section .row .item .box_2 .bir p {
+    color: #101c55;
+    margin: 27px 71px 33px 85px;
+}
+
+section .row .item .box_2 .bir .card {
+    opacity: 0;
+    width: 300px;
+    height: 358px;
+    transition: 0.4s;
+    transform: scale(0);
+}
+
+section .row .item .box_2 .bir:hover .card {
+    opacity: 1;
+    background: #366fe95b;
+    padding-top: 0%;
+    transform: scale(1);
+}
+
+section .row .item .box_2 .bir:hover .card a {
+    text-decoration: none;
+}
+
+section .row .item .box_2 .ikki {
+    width: 300px;
+    height: 358px;
+    margin: 10px;
+    text-align: center;
+    background: url(../imeg/Rectangle\ 6\ copy\ 4.png);
+    background-size: cover;
+}
+
+section .row .item .box_2 .ikki h2 {
+    color: #101c55;
+}
+
+section .row .item .box_2 .ikki p {
+    color: #101c55;
+    margin: 27px 71px 33px 85px;
+
+}
+
+section .row .item .box_2 .ikki .card {
+    opacity: 0;
+    width: 300px;
+    height: 358px;
+    transition: 0.4s;
+    transform: scale(0);
+}
+
+section .row .item .box_2 .ikki:hover .card {
+    opacity: 1;
+    background: #9ec4af5b;
+    padding-top: 0%;
+    transform: scale(1);
+}
+
+section .row .item .box_2 .ikki:hover .card a {
+    text-decoration: none;
+}
+
+section .row .item .box_2 .uch {
+    width: 300px;
+    height: 358px;
+    margin: 10px;
+    text-align: center;
+    background: url(../imeg/photo_2022-02-10_17-21-00.jpg);
+    background-size: cover;
+}
+
+section .row .item .box_2 .uch h2 {
+    color: #101c55;
+}
+
+section .row .item .box_2 .uch p {
+    color: #101c55;
+    margin: 27px 71px 33px 85px;
+}
+
+section .row .item .box_2 .uch .card {
+    opacity: 0;
+    width: 300px;
+    height: 358px;
+    transition: 0.4s;
+    transform: scale(0);
+}
+
+section .row .item .box_2 .uch:hover .card {
+    opacity: 1;
+    background: #9ec4af5b;
+    padding-top: 0%;
+    transform: scale(1);
+}
+
+section .row .item .box_2 .uch:hover .card a {
+    text-decoration: none;
+}
+
+/*  main */
+main .main_top .about {
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+}
+
+main .main_top .about p {
+    color: #fcf9f9;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+main .main_top .item {
+    margin-top: 80px;
+}
+
+main .main_top .item .foot {
+    width: 650px;
+    height: 200px;
+    display: flex;
+    margin-left: 0;
+    margin-top: 93px;
+}
+
+main .main_top .item .foot .pp {
+    width: 315px;
+    margin-left: 0;
+    height: 195px;
+    margin-top: 35px;
+    color: #ffffff;
+}
+
+main .main_top .item .foot .pp h3 {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 800;
+    color: #f7f7f7;
+}
+
+main .main_top .item .foot .rasm {
+    margin-left: 30px;
+}
+
+main .main_top .item .foot .rasm img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%
+}
+
+main .main_top .item .fot {
+    width: 650px;
+    height: 200px;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 93px;
+}
+
+main .main_top .item .fot .pp {
+    width: 315px;
+    margin-left: 0;
+    height: 195px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 60px;
+    color: #f8f6f6;
+}
+
+main .main_top .item .fot .pp h3 {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 800;
+    color: #fffafa;
+}
+
+main .main_top .item .fot .pp p {
+    margin-left: 25px;
+}
+
+main .main_top .item .fot .rasm {
+    margin-right: 5px;
+}
+
+main .main_top .item .fot .rasm img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%
+}
+
+main .main_top .item .foit {
+    margin-top: 93px;
+    display: flex;
+    justify-content: center;
+}
+
+/* carucel */
+main #carouselExampleControls {
+    margin-top: 30px;
+    padding-bottom: 200px;
+}
+main #carouselExampleControls .carousel-inner{
+    height: 593px;
+}
+
+main .carusel{
+    height: 600px;
+}
+main .carusel .ebaut .item {
+    height: 593px !important; 
+    background: white;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+main .carusel .ebaut .item .name {
+    text-align: center;
+    padding-top: 70px;
+    color: #101c55;
+}
+
+main .carusel .ebaut .item .logo {
+    width: 350px;
+    padding-left: 75px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #101c55;
+}
+
+main .carusel .ebaut .item .cont .num {
+    margin: 15px;
+}
+
+main .carusel .ebaut .item .cont .acount {
+    margin-left: 68px;
+}
+
+main .carusel .ebaut .item .cont span {
+    font-size: 30px;
+    color: #101c55;
+}
+
+/* contact */
+main .contakt{
+    display: none;
+}
+main .contakt {
+margin-top: 50px;
+    width: 1400;
+    height: 800px;
+    background-image: url(../imeg/Снимок.JPG);
+    background-size: cover;
+}
+
+main .contakt .name .us {
+    text-align: center;
+}
+
+main .contakt .name .us h2 {
+    padding-top: 112px;
+    color: white;
+    font-size: 40px;
+}
+
+main .contakt .name .us p {
+    margin-top: 15px;
+    color: #fcfafa;
+    font-size: 16px;
+}
+
+main .contakt .email {
+    margin-top: 80px;
+    display: flex
+}
+
+main .contakt .email .email_top {
+    width: 460px;
+    height: 200px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .contakt .email .email_top .top {
+    margin-bottom: 20px;
+}
+
+main .contakt .email .email_top .top textarea {
+    width: 450px;
+    height: 50px;
+    font-size: 25PX;
+    padding-left: 15px;
+    font-weight: 700;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main .contakt .email .xost p textarea {
+    width: 460px;
+    height: 220px;
+    padding-left: 15px;
+    background: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main .contakt .name .butt button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 50px;
+    background-color: #3c8fdd;
+    transition: 0.5s;
+}
+
+main .contakt .name .butt button:hover {
+    transform: scale(1.1);
+}
+
+main .contakt .name .butt button span {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+}
+main .gap-2{
+    padding: 50px;
+
+}
+main .gap-2 .btn{
+    background-color: #101c55;
+    border: none;
+}
+
+
+/* foooter */
+footer .cop {
+    display: flex;
+    margin-top: 25px;
+}
+
+footer .cop .log {
+    margin: 0;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+footer {
+    background: white;
+    height: 70px;
+}
+
+footer .cop .icon {
+    margin-left: 200px;
+    padding-top: 15px;
+}
+
+footer .cop .icon .logo {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .cop .icon .logo .fasebook {
+    display: flex;
+    color: #103153;
+    font-size: 30px;
+    border: 1px solid rgb(241, 240, 240);
+    border-radius: 50%;
+}
+
+footer .cop .icon .logo .instagram {
+    display: flex;
+    color: #103153;
+    font-size: 30px;
+    border: 1px solid rgb(241, 240, 240);
+    border-radius: 50%;
+}
+
+footer .cop .icon .logo .telegram {
+    display: flex;
+    color: #103153;
+    font-size: 30px;
+    border: 1px solid rgb(241, 240, 240);
+    border-radius: 50%;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .navbar .collaps {
+        display: none;
+    }
+
+    header .row .navbar #chiziq {
+        display: block;
+        background: transparent;
+
+    }
+
+    /* header .row .navbar #chiziq .btn-group:hover{
+    border: none;
+} */
+    header .row .navbar #chiziq {
+        padding-left: 150px;
+        display: flex;
+        justify-content: space-around !important;
+    }
+
+    .btn-danger {
+        background-color: transparent !important;
+        border-color: transparent;
+    }
+
+    header .logo h4 {
+        margin-top: 0;
+    }
+
+    section .container {
+        text-align: center;
+    }
+
+    section .row {
+        width: auto;
+        margin-left: 70px;
+    }
+
+    section .row .item .box_1 {
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    section .row .item .box_2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main .carusel .container {
+        flex-direction: column;
+    }
+
+    main .carusel .ebaut .item .logo {
+        width: 250px;
+        padding-left: 0;
+        text-align: center;
+
+    }
+
+    main .contakt {
+        height: auto;
+    }
+
+    main .contakt .email {
+        text-align: none;
+    }
+
+    main .contakt .email {
+        flex-direction: column;
+    }
+
+    main .contakt .email .email_top {
+        height: auto;
+    }
+
+    main .contakt .email .xost {
+        margin-left: 0;
+    }
+    main .carusel .ebaut .item .logo {
+        margin-left: 140px;
+    }
+
+    main .carusel .ebaut .item {
+        margin-left: 0;
+    }
+
+    main #carouselExampleControls {
+        padding-bottom: 0;
+    }
+
+    main .contakt .email .email_top .top textarea {
+        width: 306px;
+    }
+main .contakt{
+    margin-top: 600px;
+}
+    footer .cop .icon {
+        margin-left: 650px;
+    }
+
+    main .container .name .butt {
+        padding-left: 35%;
+    }
+    main .gap-2{
+    padding-top: 650px;
+    }
+
+}
+
+@media(max-width: 992px) and (min-width:768px) {
+    header .row .navbar .hhhh {
+        width: 991px;
+
+    }
+
+    .navbar .collaps ul {
+        margin: 0;
+    }
+
+    section .row {
+        width: auto;
+    }
+
+    section .box_1 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    section .box_2 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    main .carusel .container {
+        flex-direction: column;
+    }
+
+    main .contakt .email {
+        flex-direction: column;
+    }
+    main .contakt{
+        padding-top: 300px;
+    }
+
+    main .contakt .email .xost {
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    main .carusel .ebaut .item .logo {
+        margin-left: 140px;
+    }
+    main .contakt .email .email_top{
+        margin-left: 150px;
+    }
+    footer{
+        margin-top: 80px;
+    }
+
+}

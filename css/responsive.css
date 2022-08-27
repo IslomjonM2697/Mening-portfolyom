@@ -1,0 +1,33 @@
+
+/* Extra small(col) < 576px */
+@media (min-width:0px) and (max-width:575px){
+    
+}
+
+
+
+/* Small (col-sm) ≥ 576px */
+@media (min-width:576px) and (max-width:767px){
+    
+}
+
+
+
+/* Medium (col-md) ≥ 768px */
+@media (min-width:768px) and (max-width:991px){
+
+}
+
+
+
+/* Large (col-lg) ≥ 992px */
+@media (min-width:992px) and (max-width:1199px){
+    
+}
+
+
+
+/* Extra large (col-xl) ≥ 1200px */
+@media (min-width:1200px){
+    
+}
